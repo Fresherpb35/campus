@@ -14,7 +14,7 @@ import { AuthProvider } from "./context/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 import "react-toastify/dist/ReactToastify.css";
 import MyProfile from "./pages/MyProfile";
-import Signout from "./pages/auth/Signout";
+import Signout from "./pages/Auth/Signout";
 import { Provider } from "react-redux";
 import { store } from "./redux/stores/store";
 
