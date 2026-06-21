@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { toast } from "react-toastify";
-import apiClient from "../../api/api.Client";
+import apiClient from "../../api/api.client";
 
 const ChatWindow = ({ messages, currentUser, otherParticipant, activeChat, updateActiveChat }) => {
   const scrollRef = useRef();
